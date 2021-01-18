@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class SSNetworkRequest<D, E>: Equatable where D:Decodable, E: SSNetworkError & Error {
+open class SSNetworkRequest<D, E>: Equatable where D:Decodable, E: SSNetworkError & Error {
     
     public enum HttpMethod: String {
         case GET

@@ -30,6 +30,7 @@ Pod::Spec.new do |spec|
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.ios.deployment_target = "13.0"
   spec.osx.deployment_target = "10.15"
+  spec.swift_versions = "5"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
