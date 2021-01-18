@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6BBF012625B599DC000B96DB /* SSNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBF011C25B599DC000B96DB /* SSNetwork.framework */; };
-		6BBF012B25B599DC000B96DB /* SSNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF012A25B599DC000B96DB /* SSNetworkTests.swift */; };
+		6BBF012B25B599DC000B96DB /* SSNetworkRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF012A25B599DC000B96DB /* SSNetworkRequestTests.swift */; };
 		6BBF012D25B599DC000B96DB /* SSNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBF011F25B599DC000B96DB /* SSNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BBF013C25B59A43000B96DB /* SSNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF013825B59A43000B96DB /* SSNetworkManager.swift */; };
 		6BBF013D25B59A43000B96DB /* SSNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBF013925B59A43000B96DB /* SSNetworkRequest.swift */; };
@@ -30,7 +30,7 @@
 		6BBF011F25B599DC000B96DB /* SSNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSNetwork.h; sourceTree = "<group>"; };
 		6BBF012025B599DC000B96DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BBF012525B599DC000B96DB /* SSNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BBF012A25B599DC000B96DB /* SSNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSNetworkTests.swift; sourceTree = "<group>"; };
+		6BBF012A25B599DC000B96DB /* SSNetworkRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSNetworkRequestTests.swift; sourceTree = "<group>"; };
 		6BBF012C25B599DC000B96DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BBF013825B59A43000B96DB /* SSNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSNetworkManager.swift; sourceTree = "<group>"; };
 		6BBF013925B59A43000B96DB /* SSNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSNetworkRequest.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		6BBF012925B599DC000B96DB /* SSNetworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				6BBF012A25B599DC000B96DB /* SSNetworkTests.swift */,
+				6BBF012A25B599DC000B96DB /* SSNetworkRequestTests.swift */,
 				6BBF012C25B599DC000B96DB /* Info.plist */,
 			);
 			path = SSNetworkTests;
@@ -222,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BBF012B25B599DC000B96DB /* SSNetworkTests.swift in Sources */,
+				6BBF012B25B599DC000B96DB /* SSNetworkRequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
