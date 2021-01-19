@@ -1,8 +1,8 @@
-# SSNetwork
-An un-opinionated network framework with only the minimal functionality and no bloater. Use this library if you only need to make only a few API calls and nothing else as this library doesn't offer much than that :)
+# SSeoNetwork
+SSeoNetwork is an un-opinionated network framework with only the minimal functionality and no bloater. Use this library if you only need to make only a few API calls and nothing else as this library doesn't offer much than that :)
 
-SSNetwork does provide cache capability. It also buffers pending requests, meaning if a request is waiting for the response and SSNetwork receives another identical request, it will not send the subsequent request but simply waits for the reponse from the first one and returns it to all pending identical requests.<br/>
-SSNetwork doesn't use callback, it only support Combine-style call.
+SSeoNetwork does provide cache capability. It also buffers pending requests, meaning if a request is waiting for the response and SSNetwork receives another identical request, it will not send the subsequent request but simply waits for the reponse from the first one and returns it to all pending identical requests.<br/>
+SSeoNetwork doesn't use callback, it only support Combine-style call.
 
 ## Sample usage.
 
