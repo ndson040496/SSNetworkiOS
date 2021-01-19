@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "SSeoNetwork"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An un-opinionated network framework with only the minimal functionality and no bloater."
 
   spec.description  = <<-DESC

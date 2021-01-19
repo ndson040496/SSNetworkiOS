@@ -25,6 +25,7 @@ open class SSNetworkRequest<D, E>: Equatable where D:Decodable, E: SSNetworkErro
     
     let uuid: String
     private(set) var ignoreCache: Bool = false
+    private(set) var allowBuffer: Bool = true
     
     internal private(set) var cacheExpirationTime: Date = Date()
     
@@ -78,6 +79,10 @@ open class SSNetworkRequest<D, E>: Equatable where D:Decodable, E: SSNetworkErro
     
     public func setIgnoreCache(_ value: Bool) {
         self.ignoreCache = value
+    }
+    
+    public func setAllowBuffer(_ value: Bool) {
+        self.allowBuffer = value
     }
     
     public func setHeaders(_ headers: [String: Any]) {

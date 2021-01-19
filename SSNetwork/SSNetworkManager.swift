@@ -27,7 +27,7 @@ public class SSNetworkManager {
             return finalizePublisher(publisher: cachedPublisher, onMainThread: onMainThread)
         }
         
-        if let publisher = existingPublisher(forRequest: request) {
+        if let publisher = existingPublisher(forRequest: request), request.allowBuffer {
             return finalizePublisher(publisher: publisher, onMainThread: onMainThread)
         }
         
