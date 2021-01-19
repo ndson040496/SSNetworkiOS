@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.author             = { "Son Nguyen" => "ndson040496@gmail.edu" }
+  spec.author             = { "Son Nguyen" => "ndson040496@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.ios.deployment_target = "13.0"
